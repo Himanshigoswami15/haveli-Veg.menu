@@ -6,27 +6,27 @@ export const MENU_DATA: MenuCategory[] = [
     items: [
       { name: 'TROPICAL FRUIT SALAD', price: '225', description: 'A refreshing colourful mixture of several sliced raw fruits with honey', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/Tropical%20Fruit%20Salad.jpeg?updatedAt=1758211143410' },
       { name: 'CORNFALKES & MILK', price: '149', description: 'Cereal made from toasting flakes of corn along with the choice of milk, hot and cold', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/Cornflakes%20&%20Milk.jpg?updatedAt=1758211134134' },
-      { name: 'POORI BHAJI (4PCS)', price: '149', description: 'Rich flavoured mildly-spiced potato curry served with puffed deep fried rounds of dough', imageUrl: '' },
-      { name: 'CHOLE BHATURE', price: '165', description: 'A combination of chana masala and bhatura/puri, a deep-fried bread', imageUrl: '' },
-      { name: 'IDLI SAMBAR', price: '145', description: 'Idli, a steamed cake made with fermented rice & lentils served with Sambar, lentil-based vegetable stew, cooked with rich flavoured spices', imageUrl: '' },
-      { name: 'VADA SAMBAR', price: '145', description: 'Vada, donut shaped lentil fritters that are fluffy, deep fried savoury made with lentils & spices served with Sambar', imageUrl: '' },
-      { name: 'UPMA', price: '135', description: 'Roasted semolina flour, white lentils, husked & split Bengal gram is cooked with veggies, herbs & spices', imageUrl: '' },
-      { name: 'DOSA', price: '165', description: 'Savory pancake made from a fermented batter of lentils and rice, of often served with chutney and sambar', imageUrl: '' },
-      { name: 'UTTAPAM', price: '165', description: 'Savory pancakes with crispy golden edges and a pillowy soft center topped with veggies', imageUrl: '' },
+      { name: 'POORI BHAJI (4PCS)', price: '149', description: 'Rich flavoured mildly-spiced potato curry served with puffed deep fried rounds of dough', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/poori%20bhaji.jpg?updatedAt=1758292958761' },
+      { name: 'CHOLE BHATURE', price: '165', description: 'A combination of chana masala and bhatura/puri, a deep-fried bread', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/chhole-bhature-recipe-main-photo.jpg?updatedAt=1758292941962' },
+      { name: 'IDLI SAMBAR', price: '145', description: 'Idli, a steamed cake made with fermented rice & lentils served with Sambar, lentil-based vegetable stew, cooked with rich flavoured spices', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/OIP.jpeg?updatedAt=1758292941956' },
+      { name: 'VADA SAMBAR', price: '145', description: 'Vada, donut shaped lentil fritters that are fluffy, deep fried savoury made with lentils & spices served with Sambar', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/vada%20sambhar.jpg?updatedAt=1758292975692' },
+      { name: 'UPMA', price: '135', description: 'Roasted semolina flour, white lentils, husked & split Bengal gram is cooked with veggies, herbs & spices', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/upma.webp?updatedAt=1758292980367' },
+      { name: 'DOSA', price: '165', description: 'Savory pancake made from a fermented batter of lentils and rice, of often served with chutney and sambar', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/dosa.webp?updatedAt=1758292980045' },
+      { name: 'UTTAPAM', price: '165', description: 'Savory pancakes with crispy golden edges and a pillowy soft center topped with veggies', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/UTTAPAM.jpg?updatedAt=1758292992279' },
       { name: 'PANEER PARATHA WITH CURD', price: '145', description: 'Stuffed flatbread made of whole wheat flour dough, filled with rich spices & cottage cheese, served with curd', imageUrl: '' },
-      { name: 'STUFFED PARATHA WITH CURD', price: '125', description: 'Choice of stuffing, potato, onion, cauliflower, or mix, made of whole wheat flour dough, filled with rich spices and served with curd', imageUrl: '' },
-      { name: 'PLAIN PARATHA WITH ALOO CHATPATA', price: '145', description: 'Whole wheat dough flatbreads served with potatoes sautéed in chopped green chilies & savoury spices.', imageUrl: '' },
-      { name: 'POHA MASALA', price: '135', description: 'Flattened rice that is steam cooked with veggies, spices & herbs', imageUrl: '' },
-      { name: 'VERMICELLI', price: '135', description: 'Cooked with tomatoes, veggies along with spices and herbs', imageUrl: '' },
+      { name: 'STUFFED PARATHA WITH CURD', price: '125', description: 'Choice of stuffing, potato, onion, cauliflower, or mix, made of whole wheat flour dough, filled with rich spices and served with curd', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/STUFFED%20PARATHA%20WITH%20CURD.webp?updatedAt=1758292987886' },
+      { name: 'PLAIN PARATHA WITH ALOO CHATPATA', price: '145', description: 'Whole wheat dough flatbreads served with potatoes sautéed in chopped green chilies & savoury spices.', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PLAIN%20PARATHA%20WITH%20ALOO%20CHATPATA.webp?updatedAt=1758292947083' },
+      { name: 'POHA MASALA', price: '135', description: 'Flattened rice that is steam cooked with veggies, spices & herbs', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/POHA%20MASALA.jpeg?updatedAt=1758292938289' },
+      { name: 'VERMICELLI', price: '135', description: 'Cooked with tomatoes, veggies along with spices and herbs', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VERMICELLI.jpg?updatedAt=1758293532221' },
     ]
   },
   {
     name: 'On The Run',
     items: [
-      { name: 'PANEER PAKORA', price: '375', description: 'Cottage cheese fritters coated with savoury gram flour batter', imageUrl: '' },
-      { name: 'CHILLI PANEER', price: '395', description: 'Batter coated fried paneer, tossed in slightly sweet, spicy, hot and tangy chili sauce', imageUrl: '' },
-      { name: 'PALAK CHEESE BALLS', price: '335', description: 'Spinach & cheese balls deep fried to perfection', imageUrl: '' },
-      { name: 'MIX VEG. PAKORA', price: '245', description: 'Mix veg. fritters coated with savoury gram flour batter', imageUrl: '' }
+      { name: 'PANEER PAKORA', price: '375', description: 'Cottage cheese fritters coated with savoury gram flour batter', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PANEER%20PAKORA.webp?updatedAt=1758292956189' },
+      { name: 'CHILLI PANEER', price: '395', description: 'Batter coated fried paneer, tossed in slightly sweet, spicy, hot and tangy chili sauce', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/chilli%20panner.jpeg?updatedAt=1758292957291' },
+      { name: 'PALAK CHEESE BALLS', price: '335', description: 'Spinach & cheese balls deep fried to perfection', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PALAK%20CHEESE%20BALLS.webp?updatedAt=1758292942289' },
+      { name: 'MIX VEG. PAKORA', price: '245', description: 'Mix veg. fritters coated with savoury gram flour batter', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/MIX%20VEG.%20PAKORA.jpeg?updatedAt=1758293753579' }
     ]
   },
   {
