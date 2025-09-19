@@ -32,19 +32,19 @@ export const MENU_DATA: MenuCategory[] = [
   {
     name: 'Chaat House',
     items: [
-        { name: 'ALOO CHAAT', price: '175', description: 'Parboiled potatoes tossed in tangy sauces', imageUrl: '' },
-        { name: 'FRUIT CHAAT', price: '175', description: 'Freshly diced seasonal fruits, mixed with liquids/syrups', imageUrl: '' },
+        { name: 'ALOO CHAAT', price: '175', description: 'Parboiled potatoes tossed in tangy sauces', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/ALOO%20CHAAT.jpeg?updatedAt=1758292969532' },
+        { name: 'FRUIT CHAAT', price: '175', description: 'Freshly diced seasonal fruits, mixed with liquids/syrups', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/FRUIT%20CHAAT.jpg?updatedAt=1758294004140' },
         { name: 'PEANUT MASALA', price: '175', description: 'Fried peanuts mixed with chopped onions, tomatoes, green chill, coriander leaves & lemon juice.', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/Spicy-Cocktail-Peanut-Snacks-1-1500x750.jpg?updatedAt=1758211140650' },
-        { name: 'MASALA PAPAD', price: '85', description: 'Fried papad topped with a spiced and tangy onion-tomato mixture', imageUrl: '' },
-        { name: 'PALAK CHEESE BALLS', price: '325', description: 'Crispy cheesy balls made with corn flour, cheese, herbs and spices', imageUrl: '' },
+        { name: 'MASALA PAPAD', price: '85', description: 'Fried papad topped with a spiced and tangy onion-tomato mixture', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/masala-papad-1000x1000.webp?updatedAt=1758294071583' },
+        { name: 'PALAK CHEESE BALLS', price: '325', description: 'Crispy cheesy balls made with corn flour, cheese, herbs and spices', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PALAK%20CHEESE%20BALLS.webp?updatedAt=1758292942289' },
         { name: 'FRENCH FRIES', price: '199', description: 'Chopped deep fried potato fingers', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/french%20fries.webp?updatedAt=1758211132814' },
         { name: 'HONEY CHILLI POTATOES', price: '249', description: 'Deep-fried potato fingers coated with sesame seeds, honey and sweet-spicy sauce', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/honey%20chilli%20potato.webp?updatedAt=1758211139092' },
-        { name: 'CRISPY CORN', price: '275', description: 'Deep-fried crunchy sweet corn kernels are tossed in onion, spices & sauces', imageUrl: '' },
-        { name: 'VEGETABLE PAKORA', price: '225', description: 'Crispy fritters made with veggies like onions, potatoes, gram flour, s herbs and rich Indian spices', imageUrl: '' },
-        { name: 'VEG KATHI ROLL', price: '299', description: 'Layered wheat flour wrap with a filling of finely julienne cut veggies, sauces & spices', imageUrl: '' },
-        { name: 'HARA BHARA KEBAB', price: '249', description: 'Grilled patties filled with leafy green veggies, along with herbs and seasonings', imageUrl: '' },
-        { name: 'PANEER PAPDI', price: '299', description: 'Paneer slices are covered with crumbled papad and peanuts, then deep-fried', imageUrl: '' },
-        { name: 'KHICHIYA PAPAD (PLAIN/MASALA)', price: '75', imageUrl: '' }
+        { name: 'CRISPY CORN', price: '275', description: 'Deep-fried crunchy sweet corn kernels are tossed in onion, spices & sauces', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/CRISPY%20CORN.webp?updatedAt=1758292974618' },
+        { name: 'VEGETABLE PAKORA', price: '225', description: 'Crispy fritters made with veggies like onions, potatoes, gram flour, s herbs and rich Indian spices', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/MIX%20VEG.%20PAKORA.jpeg?updatedAt=1758293753579' },
+        { name: 'VEG KATHI ROLL', price: '299', description: 'Layered wheat flour wrap with a filling of finely julienne cut veggies, sauces & spices', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VEG%20KATHI%20ROLL.webp?updatedAt=1758294362003' },
+        { name: 'HARA BHARA KEBAB', price: '249', description: 'Grilled patties filled with leafy green veggies, along with herbs and seasonings', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/HARA%20BHARA%20KEBAB.webp?updatedAt=1758294537556' },
+        { name: 'PANEER PAPDI', price: '299', description: 'Paneer slices are covered with crumbled papad and peanuts, then deep-fried', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PANEER%20PAPDI.webp?updatedAt=1758294789106' },
+        { name: 'KHICHIYA PAPAD (PLAIN/MASALA)', price: '75', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/khichiya%20papad.webp?updatedAt=1758292968388' }
     ]
   },
   {
@@ -59,7 +59,7 @@ export const MENU_DATA: MenuCategory[] = [
     name: 'Grill Charm',
     items: [
       { name: 'VEG. SIZZLER', price: '499', description: 'Vegetarian sizzler consists of rice, cottage cheese, mushroom and other veggies (might vary sometime)', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/sizzlers.webp?updatedAt=1758211140259' },
-      { name: 'CHINESE VEG SIZZLER', price: '549', description: 'Chinese veg (any 3 preparations) preparations as per the guest choice', imageUrl: '' }
+      { name: 'CHINESE VEG SIZZLER', price: '549', description: 'Chinese veg (any 3 preparations) preparations as per the guest choice', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/CHINESE%20VEG%20SIZZLER.webp?updatedAt=1758292970567' }
     ]
   },
    {
@@ -70,7 +70,7 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'CHILLI MUSHROOM', price: '395', description: 'Batter coated mushroom tossed in slightly sweet, spicy, hot & tangy chilli sauce', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/chilli%20mushroom.JPG?updatedAt=1758211134404' },
       { name: 'VEG. MANCHURIAN', price: '235', description: 'Marinated deep fried veg. balls saute in chilli garlic sauce', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/manchurian.jpg?updatedAt=1758211139469' },
       { name: 'CHINESE PLATTER', price: '499', description: 'Combination of Chinese varieties including noodles, Manchurian, chilli paneer', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/chinese.webp?updatedAt=1758211132789' },
-      { name: 'SPRING ROLLS', price: '249', description: 'hot handheld pockets of vegetables are wrapped and deep fried, served with spicy dip', imageUrl: '' },
+      { name: 'SPRING ROLLS', price: '249', description: 'hot handheld pockets of vegetables are wrapped and deep fried, served with spicy dip', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/SPRING%20ROLLS.jpeg?updatedAt=1758292990786' },
     ]
   },
   {
