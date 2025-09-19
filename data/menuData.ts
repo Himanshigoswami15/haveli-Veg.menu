@@ -18,8 +18,6 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'PLAIN PARATHA WITH ALOO CHATPATA', price: '145', description: 'Whole wheat dough flatbreads served with potatoes sautéed in chopped green chilies & savoury spices.', imageUrl: '' },
       { name: 'POHA MASALA', price: '135', description: 'Flattened rice that is steam cooked with veggies, spices & herbs', imageUrl: '' },
       { name: 'VERMICELLI', price: '135', description: 'Cooked with tomatoes, veggies along with spices and herbs', imageUrl: '' },
-      { name: 'BREAD OMLETTE (EGGLESS)', price: '135', imageUrl: '' },
-      { name: 'CHEESE OMLETTE (EGGLESS)', price: '145', imageUrl: '' },
     ]
   },
   {
@@ -86,11 +84,16 @@ export const MENU_DATA: MenuCategory[] = [
     ]
   },
   {
-    name: 'Pizza & Pasta',
+    name: 'Pizza',
     items: [
       { name: 'MARGHERITA PIZZA', price: '365', description: 'Pizza features a bubbly cheese crust, tomato sauce, fresh mozzarella and topped with herbs', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/margrita.jpeg?updatedAt=1758211139579' },
       { name: 'VEG.HAVELI GARDEN PIZZA', price: '395', description: 'Loaded with capsicum, onion, mushroom, golden corn, tomato along with cheese', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/garden%20pizza.webp?updatedAt=1758211138342' },
       { name: 'PERI PERI COTTAGE PIZZA', price: '415', description: 'Stuffed with black olives, capsicum, onion, mushroom, golden corn, tomato, jalapeno, and extra cheese', imageUrl: '' },
+    ]
+  },
+  {
+    name: 'Pasta',
+    items: [
       { name: 'ALFREDO PASTA', price: '325', description: 'Choice of pasta- penne, fusilli, combined with fresh veggies (bell pepper, sweet corn, broccoli), white cream & cheese', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/alfredo.webp?updatedAt=1758211132677' },
       { name: 'ALL\' ARRABBIATA PASTA', price: '325', description: 'Choice of pasta- penne, fusilli, seasoned with arrabbiata sauce (tomatoes, hot chili pepper, garlic) & fresh parsley', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/arrabita%20pasta.webp?updatedAt=1758211132567' },
       { name: 'MACARONI', price: '249', description: 'Boiled macaroni is tossed with onion, tomato, ginger, garlic & rich spices and herbs', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/macroni.webp?updatedAt=1758211139279' },

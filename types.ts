@@ -9,3 +9,7 @@ export interface MenuCategory {
   name: string;
   items: MenuItem[];
 }
+
+export interface CartItem extends MenuItem {
+  quantity: number;
+}
