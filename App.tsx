@@ -6,6 +6,7 @@ import CategoryNav from './components/CategoryNav';
 import MenuSection from './components/MenuSection';
 import PhoneIcon from './components/icons/PhoneIcon';
 import EmailIcon from './components/icons/EmailIcon';
+import InstagramIcon from './components/icons/InstagramIcon';
 import Cart from './components/Cart';
 import CartIcon from './components/icons/CartIcon';
 
@@ -129,6 +130,10 @@ const App: React.FC = () => {
                 <a href="mailto:admin@thehaveliresorts.com" className="flex items-center hover:text-[#C0A062] transition-colors duration-300">
                     <EmailIcon />
                     <span>admin@thehaveliresorts.com</span>
+                </a>
+                 <a href="https://www.instagram.com/thehaveli.resort?igsh=MWl6MDdhc3lmajZt" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-[#C0A062] transition-colors duration-300">
+                    <InstagramIcon />
+                    <span>@thehaveli.resort</span>
                 </a>
             </div>
              <a href="http://www.thehaveliresorts.com" target="_blank" rel="noopener noreferrer" className="inline-block mt-2 hover:text-[#C0A062] transition-colors duration-300">
