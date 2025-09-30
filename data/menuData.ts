@@ -216,7 +216,7 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'CHOCOLATE TRUFFLE CAKE (1 POUND)', price: '1500', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/chocolate-truffle-cake-7.webp?updatedAt=1759147037842' },
       { name: 'BUTTER SCOTCH CAKE (1 POUND)', price: '1000', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/BUTTER%20SCOTCH%20CAKE.webp?updatedAt=1759147036557' },
       { name: 'LOTUS BISCOFF CAKE (1 POUND)', price: '1500', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/LOTUS%20BISCOFF%20CAKE.jpg?updatedAt=1759147343223' },
-      { name: 'CLASSIC VANILLA CAKE (1 POUND)', price: '1000', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/CLASSIC%20VANILLA%20CAKE.jpg?updatedAt=1759147037226' },
+      { name: 'CLASSIC VANILLA CAKE (1 POUND)', price: '1000', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/classic%20vanila.jpg?updatedAt=1759207090731' },
       { name: 'LOADED FRUIT CAKE (1 POUND)', price: '1500', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/LOADED%20FRUIT%20CAKE.webp?updatedAt=1759147343130' },
     ]
   },
@@ -224,12 +224,12 @@ export const MENU_DATA: MenuCategory[] = [
     name: 'Mocktails',
     items: [
       { name: 'VIRGINIA CREAM', price: '295', description: 'Fine blend of orange, pineapple, and mango juices, pomegranate syrup, & fresh cream', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VIRGINIA%20CREAM.jpg?updatedAt=1759147890146' },
-      { name: 'APPLE OF MY EYE', price: '295', description: 'Black current syrup, vanilla ice-cream & apple juice', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/APPLE%20OF%20MY%20EYE1.jpeg?updatedAt=1759147039075' },
+      { name: 'APPLE OF MY EYE', price: '295', description: 'Black current syrup, vanilla ice-cream & apple juice', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/APPLE%20OF%20MY%20EYE.jpg?updatedAt=1759207090844' },
       { name: 'FRUIT PUNCH', price: '295', description: 'Mix of orange, pineapple and mango juice', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/FRUIT%20PUNCH.webp?updatedAt=1759147133410' },
       { name: 'VIRGIN MARY', price: '295', description: 'Tomato juice, tabasco sauce, and a subtle lemon juice blend', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VIRGIN%20MARY.webp?updatedAt=1759147889797' },
       { name: 'THE RISING LION', price: '325', description: 'Orange and pineapple juices infused with grenadine syrup', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/rising-sun.png?updatedAt=1759174159831' },
       { name: 'VIRGIN PINA COLADA', price: '325', description: 'Vanilla ice-cream, pineapple juice & coconut milk', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VIRGIN%20PINA%20COLADA.webp?updatedAt=1759174569993' },
-      { name: 'VIRGIN MOJITO', price: '295', description: 'Stimulating blend of mint & lime', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/virgin%20mojitoo.webp?updatedAt=1759174791308' },
+      { name: 'VIRGIN MOJITO', price: '295', description: 'Stimulating blend of mint & lime', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/mojito.jpg?updatedAt=1759207091472' },
       { name: 'WATERMELON MOJITO', price: '295', description: 'Twist on classic mojito with thirst quenching watermelon', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VIRGIN%20MOJITO.webp?updatedAt=1759174569557' }
     ]
   },
@@ -243,8 +243,8 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'HOT CHOCOLATE', price: '145', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/hot%20choclate.jpg?updatedAt=1759174013249' },
       { name: 'COLD COFFEE', price: '175', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/cold%20coffee.jpg?updatedAt=1759174012948' },
       { name: 'ICED TEA', price: '150', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/ice%20tea.jpg?updatedAt=1759174013039' },
-      { name: 'FRESH LIME WATER', price: '75', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/lime%20water.jpg?updatedAt=1759174012104' },
-      { name: 'FRESH LIME SODA', price: '95', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/fresh%20lime%20soda.jpg?updatedAt=1759174012323' },
+      { name: 'FRESH LIME WATER', price: '75', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/lime%20water%20frsh.webp?updatedAt=1759207090364' },
+      { name: 'FRESH LIME SODA', price: '95', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/soda.webp?updatedAt=1759207090742' },
       { name: 'SODA BOTTLE', price: '40', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/SODHA%20BOTTLE.jpg?updatedAt=1759174155288' },
       { name: 'ICE BUCKET', price: '100', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/ice%20bucket.jpg?updatedAt=1759174012972' },
       { name: 'MINERAL WATER (1ltr)', price: 'MRP', imageUrl: '' },
