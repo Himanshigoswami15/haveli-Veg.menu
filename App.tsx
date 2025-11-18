@@ -9,6 +9,7 @@ import EmailIcon from './components/icons/EmailIcon';
 import InstagramIcon from './components/icons/InstagramIcon';
 import Cart from './components/Cart';
 import CartIcon from './components/icons/CartIcon';
+import SearchBar from './components/SearchBar';
 
 const App: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>(MENU_DATA[0]?.name || '');
@@ -16,6 +17,22 @@ const App: React.FC = () => {
   const navRef = useRef<HTMLElement>(null);
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const handleToggleSearch = () => {
+    setIsSearchOpen(prev => {
+      if (!prev === false) { // If we are closing the search
+        setSearchQuery('');
+      }
+      return !prev;
+    });
+  };
+
+  const handleCloseSearch = () => {
+    setIsSearchOpen(false);
+    setSearchQuery('');
+  };
 
   const handleUpdateQuantity = (itemToUpdate: MenuItem, newQuantity: number) => {
     setCartItems(currentItems => {
@@ -42,8 +59,13 @@ const App: React.FC = () => {
   const totalItemsInCart = cartItems.reduce((total, item) => total + item.quantity, 0);
 
   useEffect(() => {
-    const navHeight = navRef.current?.offsetHeight || 72; // Estimate nav height
-    const topMargin = navHeight + 20; // Add some extra buffer
+    if (isSearchOpen) return; // Disable observer when search is active
+
+    const navElement = navRef.current;
+    if (!navElement) return;
+
+    const navHeight = navElement.offsetHeight || 72;
+    const topMargin = navHeight + 20;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -67,20 +89,41 @@ const App: React.FC = () => {
         observer.unobserve(section);
       });
     };
-  }, []);
+  }, [isSearchOpen]);
+
+  const filteredMenuData = searchQuery.trim()
+    ? MENU_DATA.map(category => ({
+        ...category,
+        items: category.items.filter(item =>
+          item.name.toLowerCase().includes(searchQuery.trim().toLowerCase()) ||
+          item.description?.toLowerCase().includes(searchQuery.trim().toLowerCase())
+        ),
+      })).filter(category => category.items.length > 0)
+    : MENU_DATA;
 
   return (
     <div className="min-h-screen bg-[#F5F5DC] text-[#4A2E2A] selection:bg-[#C0A062] selection:text-white">
-      <Header />
-      <CategoryNav
-        ref={navRef}
-        categories={MENU_DATA.map(cat => cat.name)}
-        activeCategory={activeCategory}
-      />
+      <Header onToggleSearch={handleToggleSearch} />
+      
+      {isSearchOpen ? (
+        <SearchBar 
+          query={searchQuery}
+          onQueryChange={setSearchQuery}
+          onClose={handleCloseSearch}
+        />
+      ) : (
+        <CategoryNav
+          ref={navRef}
+          categories={MENU_DATA.map(cat => cat.name)}
+          activeCategory={activeCategory}
+        />
+      )}
+
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col gap-8">
           <main className="w-full space-y-12">
-            {MENU_DATA.map((category: MenuCategory) => (
+            {filteredMenuData.length > 0 ? (
+              filteredMenuData.map((category: MenuCategory) => (
               <div
                 key={category.name}
                 id={category.name}
@@ -94,7 +137,15 @@ const App: React.FC = () => {
                   onUpdateQuantity={handleUpdateQuantity}
                 />
               </div>
-            ))}
+            ))
+            ) : (
+                <div className="text-center py-16">
+                    <h3 className="text-2xl font-semibold text-[#800000]">No dishes found</h3>
+                    <p className="text-[#4A2E2A]/70 mt-2">
+                        We couldn't find anything matching "{searchQuery}". Try a different search.
+                    </p>
+                </div>
+            )}
           </main>
         </div>
       </div>
