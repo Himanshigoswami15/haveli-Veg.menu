@@ -111,6 +111,29 @@ export const MENU_DATA: MenuCategory[] = [
     ]
   },
   {
+    name: 'Veg Starters',
+    items: [
+      { name: 'PANEER AMRITSARI TIKKA', price: '325' },
+      { name: 'PANEER ANGRA TIKKA', price: '325' },
+      { name: 'PERI PERI PANEER TIKKA', price: '325' },
+      { name: 'PANEER ACHARI TIKKA', price: '325' },
+      { name: 'PANEER AFGHANI TIKKA', price: '325' },
+      { name: 'PANEER PUDINA TIKKA', price: '325' },
+      { name: 'PANEER KALI MIRCH TIKKA', price: '325' },
+      { name: 'PANEER PAHADI TIKKA', price: '325' },
+      { name: 'PANEER MALAI TIKKA', price: '325' },
+      { name: 'PANEER SUFIYANA TIKKA', price: '325' },
+      { name: 'TANDOORI MUSHROOM', price: '399' },
+      { name: 'TANDOORI ALOO', price: '295' },
+      { name: 'VEGETABLE SEEK KEBAB', price: '245' },
+      { name: 'TANDOORI BAGICHA PLATTER', price: '450' },
+      { name: 'TANDOORI GOBI', price: '225' },
+      { name: 'VEGETABLE KEBAB PLATTER', price: '475' },
+      { name: 'TANDOORI SOYA CHAAP', price: '350' },
+      { name: 'TANDOORI PINEAPPLE', price: '325' },
+    ]
+  },
+  {
     name: 'Soups',
     items: [
       { name: 'VEG HOT & SOUR SOUP', price: '155', description: 'Soup with spicy and hot flavours made with fresh veggies, spices, and soy sauce', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/VEG%20HOT%20&%20SOUR%20SOUP.jpg?updatedAt=1759147889598' },
