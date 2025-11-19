@@ -107,12 +107,8 @@ export const MENU_DATA: MenuCategory[] = [
       { name: 'PANEER SEEKH KEBAB', price: '325', description: 'Grated cottage cheese, bread crumbs, spices, & herbs are mixed, formed into cylinders on skewers & grilled in tandoor', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PANEER%20SEEKH%20KEBAB.jpg?updatedAt=1759148980054' },
       { name: 'PANEER STICK', price: '399', description: 'Chunks of marinated paneer, pineapple, onion, capsicum, tomatoes are grilled on a hot plate', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/PANEER%20STICK.jpg?updatedAt=1759148980072' },
       { name: 'MUSHROOM DUPLEX', price: '399', description: 'Mushrooms are stuffed with potatoes, mint & spices, coated with yogurt batter and grilled in tandoor', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/MUSHROOM%20DUPLEX.jpg?updatedAt=1759147518369' },
-      { name: 'MUSHROOM TIKKA', price: '355', description: 'Marinated mushrooms are stacked with diced onions, bell pepper on skewers & grilled in tandoor', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/MUSHROOM%20TIKKA.jpg?updatedAt=1759147518681' }
-    ]
-  },
-  {
-    name: 'Veg Starters',
-    items: [
+      { name: 'MUSHROOM TIKKA', price: '355', description: 'Marinated mushrooms are stacked with diced onions, bell pepper on skewers & grilled in tandoor', imageUrl: 'https://ik.imagekit.io/j1fgksdwx/MUSHROOM%20TIKKA.jpg?updatedAt=1759147518681' },
+ 
       { name: 'PANEER AMRITSARI TIKKA', price: '325', imageUrl:'https://ik.imagekit.io/j1fgksdwx/amritsari%20tikka.jpg' },
       { name: 'PANEER ANGRA TIKKA', price: '325',imageUrl:'https://ik.imagekit.io/j1fgksdwx/angara%20tikka.jpg'},
       { name: 'PERI PERI PANEER TIKKA', price: '325',imageUrl:'https://ik.imagekit.io/j1fgksdwx/PERI%20PERI%20PANEER%20TIKKA.jpg' },
