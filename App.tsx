@@ -187,9 +187,22 @@ const App: React.FC = () => {
                     <span>@thehaveli.resort</span>
                 </a>
             </div>
-             <a href="http://www.thehaveliresorts.com" target="_blank" rel="noopener noreferrer" className="inline-block mt-2 hover:text-[#C0A062] transition-colors duration-300">
-                www.thehaveliresorts.com
-            </a>
+            <div className="flex flex-col items-center gap-1 mt-2">
+                <a href="http://www.thehaveliresorts.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#C0A062] transition-colors duration-300">
+                    www.thehaveliresorts.com
+                </a>
+                <div className="mt-4 pt-4 border-t border-[#C0A062]/20 w-48">
+                    <a 
+                        href="https://www.instagram.com/qreativemenus" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-xs hover:text-[#C0A062] transition-colors duration-300 flex items-center justify-center gap-1"
+                    >
+                        <span>Designed with ❤️ by</span>
+                        <span className="font-bold">@qreativemenus</span>
+                    </a>
+                </div>
+            </div>
        </footer>
     </div>
   );
